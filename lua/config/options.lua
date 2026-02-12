@@ -6,4 +6,4 @@ if vim.loop.os_uname().sysname == "Windows_NT" then
 end
 
 vim.opt.autochdir = true
-vim.opt.fixendofline = true
+-- vim.opt.fixendofline = true
