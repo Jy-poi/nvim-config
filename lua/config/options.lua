@@ -7,3 +7,15 @@ end
 
 vim.opt.autochdir = true
 -- vim.opt.fixendofline = true
+-- https://github.com/LazyVim/LazyVim/issues/5764#issuecomment-3067342138
+vim.opt.showbreak = "↳"
+vim.opt.listchars = {
+  eol = "⏎",
+  tab = "› ",
+  trail = "·",
+  lead = "·",
+  nbsp = "␣",
+  extends = "…",
+  precedes = "…",
+}
+vim.opt.list = false
